@@ -470,7 +470,10 @@ export default function IRPlaybookGenerator() {
                 <CardContent>
                   <div className="space-y-4">
                     {playbook.stakeholders.map((stakeholder, idx) => (
-                      <div key={idx} className="p-4 border rounded-lg bg-purple-50">
+                      <div
+                        key={idx}
+                        className="p-4 border rounded-lg bg-purple-50 dark:bg-purple-900/20 dark:border-purple-800/60 transition-colors"
+                      >
                         <div className="flex items-start justify-between mb-3">
                           <div className="flex items-center gap-2">
                             <Users className="w-5 h-5 text-purple-600" />
@@ -483,18 +486,18 @@ export default function IRPlaybookGenerator() {
 
                         <div className="space-y-2 text-sm">
                           <div>
-                            <span className="text-gray-600 font-semibold">Trigger:</span>
-                            <p className="mt-1">{stakeholder.notification_trigger}</p>
+                            <span className="text-gray-600 dark:text-[#cfcfcf] font-semibold">Trigger:</span>
+                            <p className="mt-1 text-gray-700 dark:text-[#d9d9d9]">{stakeholder.notification_trigger}</p>
                           </div>
 
                           <div>
-                            <span className="text-gray-600 font-semibold">Escalation Threshold:</span>
-                            <p className="mt-1 text-red-700">{stakeholder.escalation_threshold}</p>
+                            <span className="text-gray-600 dark:text-[#cfcfcf] font-semibold">Escalation Threshold:</span>
+                            <p className="mt-1 text-red-700 dark:text-red-400">{stakeholder.escalation_threshold}</p>
                           </div>
 
                           <div>
-                            <span className="text-gray-600 font-semibold">Communication Template:</span>
-                            <div className="mt-2 p-3 bg-white rounded border font-mono text-xs whitespace-pre-wrap">
+                            <span className="text-gray-600 dark:text-[#cfcfcf] font-semibold">Communication Template:</span>
+                            <div className="mt-2 p-3 bg-white dark:bg-[#1a1a1a] rounded border dark:border-[#2a2a2a] font-mono text-xs whitespace-pre-wrap transition-colors">
                               {stakeholder.communication_template}
                             </div>
                             <Button
