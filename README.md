@@ -28,27 +28,16 @@
 
 ---
 
-## ?? Try Before You Clone
+## ðŸš€ Quick Start
 
-**Live Sandbox:** [demo.sentinel-analytics.dev/cipher](https://demo.sentinel-analytics.dev/cipher)
+**Local Setup:**
+- Clone the repository and follow the installation instructions below
+- All features are available when running locally
+- See [Quick Start](#quick-start) section for setup instructions
 
-**Pre-loaded Scenarios:**
-- Zero-day threat detection
-- Threat actor attribution
-- IOC correlation and tracking
-- Campaign analysis and visualization
-
-**Demo Features:**
-- Full UI access (no login required)
-- Sample datasets (anonymized)
-- All features enabled
-- Reset environment anytime
-
-**Feedback Loop:**
-- Rate features (thumbs up/down)
-- Submit feature requests
-- Report bugs
-- Share use cases
+**Demo:**
+- Interactive demo coming soon
+- For now, please use the local setup instructions to run the project
 
 ---
 
@@ -215,26 +204,26 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 
 ```
 +-------------------------------------------------------------+
-¦                     CIPHER SYSTEM                           ¦
-+-------------------------------------------------------------¦
-¦                                                             ¦
-¦  +--------------+     +--------------+     +-------------+ ¦
-¦  ¦  IOC Feeds   ¦     ¦  Correlation ¦     ¦  Detection  ¦ ¦
-¦  ¦  (Collectors)¦----?¦   Engine     ¦----?¦  Pipeline   ¦ ¦
-¦  +--------------+     +--------------+     +-------------+ ¦
-¦         ¦                     ¦                     ¦        ¦
-¦         ?                     ?                     ?        ¦
-¦  +------------------------------------------------------+  ¦
-¦  ¦          Elasticsearch (IOC Index)                    ¦  ¦
-¦  +------------------------------------------------------+  ¦
-¦                                                             ¦
-¦  +------------------------------------------------------+  ¦
-¦  ¦          Neo4j (Threat Actor Network)                 ¦  ¦
-¦  +------------------------------------------------------+  ¦
-¦                                                             ¦
-¦  +------------------------------------------------------+  ¦
-¦  ¦    PyTorch Models (Anomaly Detection)                 ¦  ¦
-¦  +------------------------------------------------------+  ¦
+ï¿½                     CIPHER SYSTEM                           ï¿½
++-------------------------------------------------------------ï¿½
+ï¿½                                                             ï¿½
+ï¿½  +--------------+     +--------------+     +-------------+ ï¿½
+ï¿½  ï¿½  IOC Feeds   ï¿½     ï¿½  Correlation ï¿½     ï¿½  Detection  ï¿½ ï¿½
+ï¿½  ï¿½  (Collectors)ï¿½----?ï¿½   Engine     ï¿½----?ï¿½  Pipeline   ï¿½ ï¿½
+ï¿½  +--------------+     +--------------+     +-------------+ ï¿½
+ï¿½         ï¿½                     ï¿½                     ï¿½        ï¿½
+ï¿½         ?                     ?                     ?        ï¿½
+ï¿½  +------------------------------------------------------+  ï¿½
+ï¿½  ï¿½          Elasticsearch (IOC Index)                    ï¿½  ï¿½
+ï¿½  +------------------------------------------------------+  ï¿½
+ï¿½                                                             ï¿½
+ï¿½  +------------------------------------------------------+  ï¿½
+ï¿½  ï¿½          Neo4j (Threat Actor Network)                 ï¿½  ï¿½
+ï¿½  +------------------------------------------------------+  ï¿½
+ï¿½                                                             ï¿½
+ï¿½  +------------------------------------------------------+  ï¿½
+ï¿½  ï¿½    PyTorch Models (Anomaly Detection)                 ï¿½  ï¿½
+ï¿½  +------------------------------------------------------+  ï¿½
 +-------------------------------------------------------------+
 ```
 
