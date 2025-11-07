@@ -259,7 +259,7 @@ Visit `http://localhost:8000/docs` for:
 
 ## 🆘 Support
 
-- **GitHub:** https://github.com/bobareichert
+- **GitHub:** https://github.com/StarGuardAi
 - **Email:** bobareichert@gmail.com
 - **Documentation:** See `docs/` directory
 - **Issues:** Open a GitHub issue

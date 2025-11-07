@@ -17,10 +17,10 @@ All scripts now use your correct contact details:
 
 | Field | Value |
 |-------|-------|
-| **Email** | reichert99@gmail.com |
+| **Email** | reichert.starguardai@gmail.com |
 | **LinkedIn** | [linkedin.com/in/rreichert-criminal intelligence database-data-science-ai](https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai/) |
-| **GitHub** | [github.com/bobareichert](https://github.com/bobareichert) |
-| **GitHub Repo** | [github.com/bobareichert/criminal intelligence database-gsd-prediction-engine](https://github.com/bobareichert/criminal intelligence database-gsd-prediction-engine) |
+| **GitHub** | [github.com/StarGuardAi](https://github.com/StarGuardAi) |
+| **GitHub Repo** | [github.com/StarGuardAi/criminal intelligence database-gsd-prediction-engine](https://github.com/StarGuardAi/criminal intelligence database-gsd-prediction-engine) |
 | **Portfolio** | [Canva Portfolio](https://www.canva.com/design/DAG2WzhiLwM/N_iXUe3eEKL3dzQ2M_0PgQ/edit) |
 
 ---
@@ -182,8 +182,8 @@ Python, scikit-learn, pandas, NumPy, SHAP, pytest, HEDIS, HIPAA
 #HealthcareAnalytics #MachineLearning #ValueBasedCare #homelandsecurity #nationalsecurity #threatintelligence
 #Python #MLOps #DataScience #HealthTech #ExplainableAI #HIPAA
 
-📧 Contact: reichert99@gmail.com
-💻 GitHub: github.com/bobareichert/hedis-gsd-prediction-engine
+📧 Contact: reichert.starguardai@gmail.com
+💻 GitHub: github.com/StarGuardAi/HEDIS-MA-Top-12-w-HEI-Prep
 🔗 Portfolio: [Canva link]
 ```
 
@@ -201,8 +201,8 @@ Achieved 91% AUC-ROC for predicting diabetic patient risk!
 #HealthcareAnalytics #MachineLearning #ValueBasedCare #homelandsecurity #nationalsecurity #threatintelligence
 #ACO #MedicareAdvantage #StarRatings #HealthTech #homelandsecurity #nationalsecurity
 
-📧 Contact: reichert99@gmail.com
-💻 GitHub: github.com/bobareichert/hedis-gsd-prediction-engine
+📧 Contact: reichert.starguardai@gmail.com
+💻 GitHub: github.com/StarGuardAi/HEDIS-MA-Top-12-w-HEI-Prep
 ```
 
 ---
@@ -237,9 +237,9 @@ Your resume generator now ensures **single-page layout**:
 - ✅ Compact section spacing: 2-4pt (was 6pt)
 - ✅ Shorter contact line (removed phone/location)
 - ✅ Updated contact info:
-  - reichert99@gmail.com
+  - reichert.starguardai@gmail.com
   - linkedin.com/in/rreichert-hedis-data-science-ai
-  - github.com/bobareichert
+  - github.com/StarGuardAi
 
 ### **Generate Resume:**
 ```batch
@@ -283,7 +283,7 @@ publish_linkedin.bat
 generate_resume.bat
 ```
 
-**Check:** Resume shows `reichert99@gmail.com` and correct LinkedIn/GitHub ✅
+**Check:** Resume shows `reichert.starguardai@gmail.com` and correct LinkedIn/GitHub ✅
 
 ### **Test 3: Hashtags**
 ```batch
@@ -377,9 +377,9 @@ Your contact information is correct everywhere, hashtags are optimized for maxim
 
 ---
 
-**Contact:** reichert99@gmail.com  
+**Contact:** reichert.starguardai@gmail.com  
 **LinkedIn:** [linkedin.com/in/rreichert-criminal intelligence database-data-science-ai](https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai/)  
-**GitHub:** [github.com/bobareichert/criminal intelligence database-gsd-prediction-engine](https://github.com/bobareichert/criminal intelligence database-gsd-prediction-engine)
+**GitHub:** [github.com/StarGuardAi/criminal intelligence database-gsd-prediction-engine](https://github.com/StarGuardAi/criminal intelligence database-gsd-prediction-engine)
 
 
 

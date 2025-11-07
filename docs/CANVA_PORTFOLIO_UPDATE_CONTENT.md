@@ -15,9 +15,9 @@ Robert Reichert
 Healthcare AI Specialist | Preventing $150-200M Star Rating Crises | Open to Work
 
 **Contact:**
-📧 robert.reichert99@gmail.com  
+📧 robert.reichert.starguardai@gmail.com  
 🔗 https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai  
-💻 https://github.com/bobareichert  
+💻 https://github.com/StarGuardAi  
 🌐 https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/
 
 **Location:**
@@ -76,7 +76,7 @@ Python | Scikit-learn | LightGBM | XGBoost | FastAPI | Streamlit | Docker | SHAP
 - **Production-deployed** and HIPAA-compliant
 
 **Repository:**
-https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
+https://github.com/StarGuardAi/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
 
 ---
 
@@ -216,9 +216,9 @@ https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-P
 
 **Interested in discussing how I can help your organization?**
 
-📧 **Email:** robert.reichert99@gmail.com  
+📧 **Email:** robert.reichert.starguardai@gmail.com  
 🔗 **LinkedIn:** https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai  
-💻 **GitHub:** https://github.com/bobareichert  
+💻 **GitHub:** https://github.com/StarGuardAi  
 🌐 **Live Demo:** https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/
 
 **Availability:**
@@ -252,8 +252,8 @@ https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-P
 
 ### Call-to-Action Buttons
 - **Try Live Demo** → https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/
-- **View GitHub** → https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
-- **Contact Me** → robert.reichert99@gmail.com
+- **View GitHub** → https://github.com/StarGuardAi/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
+- **Contact Me** → robert.reichert.starguardai@gmail.com
 - **Connect on LinkedIn** → https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai
 
 ---
@@ -266,7 +266,7 @@ https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-P
 - [ ] Add 12-measure portfolio breakdown
 - [ ] Update live demo links to GitHub Pages URL
 - [ ] Add Health Equity Index (HEI) achievement
-- [ ] Update contact email to robert.reichert99@gmail.com
+- [ ] Update contact email to robert.reichert.starguardai@gmail.com
 
 ### This Week
 - [ ] Add "Open to Work" badge

@@ -346,7 +346,7 @@ st.session_state.page_views += 1
 # At bottom of each page:
 st.markdown("---")
 st.markdown("### 💼 Interested in this work?")
-st.markdown("📧 reichert99@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/rreichert-HEDIS-Data-Science-AI)")
+st.markdown("📧 reichert.starguardai@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/rreichert-HEDIS-Data-Science-AI)")
 ```
 
 ---

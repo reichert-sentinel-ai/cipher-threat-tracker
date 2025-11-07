@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Theme Applied by Default */
+:root {
+  color-scheme: dark;
+}
+
+html {
+  color-scheme: dark;
+}
+
+html.dark,
+.dark {
+  color-scheme: dark;
+}
+
+/* Force dark theme on body */
+body {
+  background-color: #0f0f0f !important;
+  color: #e5e5e5 !important;
+}
+
+/* Dark Theme Print Styles */
+@media print {
+  /* Ensure dark theme is preserved when printing */
+  html.dark,
+  .dark {
+    color-scheme: dark;
+    background-color: #0f0f0f !important;
+    color: #e5e5e5 !important;
+  }
+
+  html.dark body,
+  .dark body {
+    background-color: #0f0f0f !important;
+    color: #e5e5e5 !important;
+  }
+
+  /* Dark theme print colors */
+  html.dark *,
+  .dark * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Ensure text is readable on dark background */
+  html.dark h1,
+  html.dark h2,
+  html.dark h3,
+  html.dark h4,
+  html.dark h5,
+  html.dark h6,
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6 {
+    color: #e5e5e5 !important;
+  }
+
+  html.dark p,
+  html.dark span,
+  html.dark div,
+  html.dark li,
+  html.dark td,
+  html.dark th,
+  .dark p,
+  .dark span,
+  .dark div,
+  .dark li,
+  .dark td,
+  .dark th {
+    color: #e5e5e5 !important;
+  }
+
+  /* Dark theme backgrounds for cards and containers */
+  html.dark [class*="bg-"],
+  html.dark [class*="bg-white"],
+  html.dark [class*="bg-gray"],
+  .dark [class*="bg-"],
+  .dark [class*="bg-white"],
+  .dark [class*="bg-gray"] {
+    background-color: #1a1a1a !important;
+    color: #e5e5e5 !important;
+  }
+
+  /* Dark theme borders */
+  html.dark [class*="border"],
+  .dark [class*="border"] {
+    border-color: #2a2a2a !important;
+  }
+
+  /* Remove backgrounds that don't print well */
+  html.dark [class*="shadow"],
+  .dark [class*="shadow"] {
+    box-shadow: none !important;
+  }
+
+  /* Ensure links are visible */
+  html.dark a,
+  .dark a {
+    color: #60a5fa !important;
+  }
+
+  /* Dark theme badges and tags */
+  html.dark [class*="badge"],
+  html.dark [class*="tag"],
+  .dark [class*="badge"],
+  .dark [class*="tag"] {
+    background-color: #1f1f1f !important;
+    border-color: #2a2a2a !important;
+    color: #e5e5e5 !important;
+  }
+
+  /* Dark theme tables */
+  html.dark table,
+  html.dark thead,
+  html.dark tbody,
+  html.dark tr,
+  html.dark td,
+  html.dark th,
+  .dark table,
+  .dark thead,
+  .dark tbody,
+  .dark tr,
+  .dark td,
+  .dark th {
+    background-color: #1a1a1a !important;
+    color: #e5e5e5 !important;
+    border-color: #2a2a2a !important;
+  }
+
+  /* Dark theme code blocks */
+  html.dark pre,
+  html.dark code,
+  .dark pre,
+  .dark code {
+    background-color: #1f1f1f !important;
+    color: #e5e5e5 !important;
+    border-color: #2a2a2a !important;
+  }
+
+  /* Hide non-essential elements */
+  nav,
+  button:not([class*="print"]),
+  [class*="no-print"] {
+    display: none !important;
+  }
+}
+

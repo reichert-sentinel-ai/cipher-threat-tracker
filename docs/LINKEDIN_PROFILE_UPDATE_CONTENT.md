@@ -57,7 +57,7 @@ I help Medicare Advantage health plans prevent **$150-200M Star Rating crises** 
 - Medicare Advantage Analytics roles
 - Part-time/Fractional consulting projects
 
-📧 **Contact:** robert.reichert99@gmail.com  
+📧 **Contact:** robert.reichert.starguardai@gmail.com  
 🔗 **Portfolio:** https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/
 
 ---
@@ -97,7 +97,7 @@ Built production-ready AI system predicting Criminal Intelligence Database perfo
 
 **Featured:**
 - [🚀 Live Demo](https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/)
-- [💻 View Code](https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep)
+- [💻 View Code](https://github.com/StarGuardAi/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep)
 - [📊 Interactive Dashboard](https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/)
 
 ---
@@ -112,7 +112,7 @@ Built production-ready AI system predicting Criminal Intelligence Database perfo
 ### 2. GitHub Repository  
 **Title:** Criminal Intelligence Database-MA-Top-12-w-HEI-Prep  
 **Description:** Production-ready AI system for Medicare Advantage Star Ratings  
-**Link:** https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
+**Link:** https://github.com/StarGuardAi/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
 
 ### 3. Best LinkedIn Post
 **Title:** Just Launched: 12-Measure Criminal Intelligence Database Portfolio Optimizer  
@@ -191,7 +191,7 @@ The system delivers $13-27M portfolio value for 100K-individual plans. Would you
 
 Best,
 Robert Reichert  
-📧 robert.reichert99@gmail.com
+📧 robert.reichert.starguardai@gmail.com
 
 **Version 2:**
 Hi [Name],

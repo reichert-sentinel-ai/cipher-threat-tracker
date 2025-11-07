@@ -346,9 +346,9 @@ Check it out: [YOUR_VERCEL_URL]
 - **Streamlit Cloud:** https://share.streamlit.io
 
 ### Contact
-- Email: reichert99@gmail.com
+- Email: reichert.starguardai@gmail.com
 - LinkedIn: linkedin.com/in/rreichert-Criminal Intelligence Database-Data-Science-AI
-- GitHub: github.com/bobareichert
+- GitHub: github.com/StarGuardAi
 
 ---
 

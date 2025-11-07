@@ -954,7 +954,7 @@ python -m cProfile streamlit_app.py > profile_output.txt
 - [ ] Cross-browser tested
 - [ ] Performance benchmarks met
 
-**Questions?** Contact Robert Reichert - reichert99@gmail.com
+**Questions?** Contact Robert Reichert - reichert.starguardai@gmail.com
 
 
 

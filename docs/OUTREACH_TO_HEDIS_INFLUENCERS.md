@@ -70,7 +70,7 @@ Would you be open to a 15-minute conversation about how predictive analytics can
 Best,
 Robert Reichert
 Healthcare AI Specialist | Open to Work
-📧 robert.reichert99@gmail.com
+📧 robert.reichert.starguardai@gmail.com
 
 **Portfolio:** https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/
 
@@ -123,7 +123,7 @@ Would you be interested in a quick 15-minute demo? I can show how this could pro
 
 Best,
 Robert
-📧 robert.reichert99@gmail.com
+📧 robert.reichert.starguardai@gmail.com
 
 ---
 
@@ -155,7 +155,7 @@ Would you have any relevant opportunities? I'd appreciate any guidance you can p
 
 Thanks,
 Robert Reichert
-📧 robert.reichert99@gmail.com
+📧 robert.reichert.starguardai@gmail.com
 🔗 https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai
 
 ---

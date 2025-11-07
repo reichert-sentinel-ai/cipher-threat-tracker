@@ -59,7 +59,7 @@ Thanks for reaching out! I'd love to discuss the [Job Title] role.
 
 Here's my HEDIS Portfolio project:
 🌐 Live Demo: https://hedis-ma-top-12-w-hei-prep.streamlit.app/
-💻 GitHub: https://github.com/bobareichert/HEDIS-MA-Top-12-w-HEI-Prep
+💻 GitHub: https://github.com/StarGuardAi/HEDIS-MA-Top-12-w-HEI-Prep
 
 Key highlights:
 • 12 HEDIS measures with 91% avg accuracy
@@ -71,7 +71,7 @@ I've attached my resume. Happy to schedule a call at your convenience.
 
 Best regards,
 Robert Reichert
-reichert99@gmail.com
+reichert.starguardai@gmail.com
 ```
 
 ---

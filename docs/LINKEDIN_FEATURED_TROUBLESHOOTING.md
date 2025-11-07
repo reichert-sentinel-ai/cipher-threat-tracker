@@ -82,8 +82,8 @@ As a workaround, add your links directly in your **About** section:
 
 ```
 🔗 Portfolio: https://bobareichert.github.io/HEDIS-MA-Top-12-w-HEI-Prep/
-📧 Contact: robert.reichert99@gmail.com
-💻 GitHub: https://github.com/bobareichert/HEDIS-MA-Top-12-w-HEI-Prep
+📧 Contact: robert.reichert.starguardai@gmail.com
+💻 GitHub: https://github.com/StarGuardAi/HEDIS-MA-Top-12-w-HEI-Prep
 ```
 
 LinkedIn will auto-link these URLs when you save.
@@ -102,7 +102,7 @@ This is more reliable than the Featured section and works consistently across de
 3. Scroll to "Media" section at bottom
 4. Add 3 items:
    - **Link 1:** https://bobareichert.github.io/HEDIS-MA-Top-12-w-HEI-Prep/
-   - **Link 2:** https://github.com/bobareichert/HEDIS-MA-Top-12-w-HEI-Prep  
+   - **Link 2:** https://github.com/StarGuardAi/HEDIS-MA-Top-12-w-HEI-Prep  
    - **Link 3:** https://www.linkedin.com/in/rreichert-hedis-data-science-ai (your profile)
 
 ---
@@ -140,16 +140,16 @@ https://criminal intelligence database-gap-in-care-prediction-engine.my.canva.si
 https://bobareichert.github.io/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep/
 
 **GitHub Repository:**
-https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
+https://github.com/StarGuardAi/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
 
 **GitHub Profile:**
-https://github.com/bobareichert
+https://github.com/StarGuardAi
 
 **LinkedIn Profile:**
 https://www.linkedin.com/in/rreichert-criminal intelligence database-data-science-ai/
 
 **Email:**
-robert.reichert99@gmail.com
+robert.reichert.starguardai@gmail.com
 
 ---
 

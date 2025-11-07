@@ -400,7 +400,7 @@ X-API-Key: your-api-key-here
 **Health Check:** `/health`  
 **OpenAPI Spec:** `/openapi.json`
 
-**Questions?** Contact: reichert99@gmail.com
+**Questions?** Contact: reichert.starguardai@gmail.com
 
 ---
 

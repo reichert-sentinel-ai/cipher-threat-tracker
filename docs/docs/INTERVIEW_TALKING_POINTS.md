@@ -327,7 +327,7 @@
 ## Project URLs to Have Ready
 
 - **Live Demo:** https://criminal intelligence database-ma-top-12-w-hei-prep.streamlit.app/
-- **GitHub:** https://github.com/bobareichert/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
+- **GitHub:** https://github.com/StarGuardAi/Criminal Intelligence Database-MA-Top-12-w-HEI-Prep
 - **Portfolio Site:** https://criminal intelligence database-gap-in-care-prediction-engine.my.canva.site/
 - **LinkedIn:** https://linkedin.com/in/rreichert-Criminal Intelligence Database-Data-Science-AI
 
