@@ -1,4 +1,4 @@
-﻿# Cipher: Cyber Threat Attribution & Analysis
+# Cipher: Cyber Threat Attribution & Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?logo=fastapi&logoColor=white)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🚀 Try Before You Clone
+## ?? Try Before You Clone
 
 **Live Sandbox:** [demo.sentinel-analytics.dev/cipher](https://demo.sentinel-analytics.dev/cipher)
 
@@ -73,11 +73,11 @@ Cipher is a cyber threat attribution and analysis system designed for homeland s
 - Multi-source threat intelligence integration
 - Network visualization and threat graph analysis
 
-**📖 [View Detailed Case Studies & Use Cases →](./docs/CASE_STUDIES.md)**
+**?? [View Detailed Case Studies & Use Cases ?](./docs/CASE_STUDIES.md)**
 
 ---
 
-## 🏆 Competitive Advantages
+## ?? Competitive Advantages
 
 Cipher delivers superior threat intelligence performance compared to enterprise solutions while providing complete transparency and zero licensing costs.
 
@@ -90,10 +90,10 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 | **Latency** | **<3s** | 8s | 6s | 12s | 10s |
 | **Cost/Year** | **Free** | $500K+ | $400K+ | $300K+ | $200K+ |
 | **IOC Sources** | **5+** | 2-3 | 2-3 | 3-4 | 2-3 |
-| **MITRE ATT&CK** | **✅ Deep** | ⚠️ Limited | ⚠️ Limited | ⚠️ Limited | ⚠️ Limited |
-| **Zero-Day Detection** | **✅ Advanced** | ⚠️ Limited | ⚠️ Limited | ⚠️ Limited | ❌ No |
-| **Threat Correlation** | **✅ Advanced** | ⚠️ Limited | ✅ Good | ⚠️ Limited | ⚠️ Limited |
-| **Open Source** | **✅ Yes** | ❌ No | ❌ No | ❌ No | ❌ No |
+| **MITRE ATT&CK** | **? Deep** | ?? Limited | ?? Limited | ?? Limited | ?? Limited |
+| **Zero-Day Detection** | **? Advanced** | ?? Limited | ?? Limited | ?? Limited | ? No |
+| **Threat Correlation** | **? Advanced** | ?? Limited | ? Good | ?? Limited | ?? Limited |
+| **Open Source** | **? Yes** | ? No | ? No | ? No | ? No |
 
 ### Unique Differentiators
 
@@ -106,11 +106,11 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 7. **MITRE ATT&CK Integration**: Deep framework integration with 200+ threat actors mapped
 8. **Production-Ready**: Full FastAPI backend, React frontend, Docker deployment
 
-**📖 [View Full Competitive Analysis →](./docs/COMPETITIVE_ANALYSIS.md)**
+**?? [View Full Competitive Analysis ?](./docs/COMPETITIVE_ANALYSIS.md)**
 
 ---
 
-## 💼 For Recruiters
+## ?? For Recruiters
 
 **Quick Summary**: This portfolio demonstration project showcases threat intelligence capabilities using anomaly detection, IOC correlation, and MITRE ATT&CK attribution.
 
@@ -130,12 +130,12 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 - **DevOps**: Docker, Docker Compose, GitHub Actions
 
 ### Skills Demonstrated
-- ✅ Anomaly Detection: Autoencoder deep learning for zero-day threats
-- ✅ Threat Intelligence: IOC collection, normalization, correlation
-- ✅ Graph Analytics: Neo4j threat actor network visualization
-- ✅ API Development: FastAPI REST API, IOC search endpoints
-- ✅ Data Engineering: Multi-source IOC collection, Elasticsearch indexing
-- ✅ DevOps: Docker containerization, CI/CD pipelines
+- ? Anomaly Detection: Autoencoder deep learning for zero-day threats
+- ? Threat Intelligence: IOC collection, normalization, correlation
+- ? Graph Analytics: Neo4j threat actor network visualization
+- ? API Development: FastAPI REST API, IOC search endpoints
+- ? Data Engineering: Multi-source IOC collection, Elasticsearch indexing
+- ? DevOps: Docker containerization, CI/CD pipelines
 
 ### Impact Metrics (Demonstration Results)
 - **Detection Precision**: 95.3% outperforms FireEye (92.8%) and CrowdStrike (91.5%)
@@ -156,16 +156,16 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 
 ---
 
-## 📊 Public Benchmarks
+## ?? Public Benchmarks
 
-**Methodology:** [View detailed methodology →](./benchmarks/methodology.md)
+**Methodology:** [View detailed methodology ?](./benchmarks/methodology.md)
 
 ### Datasets Used
-- ✅ AlienVault OTX (500K+ IOCs)
-- ✅ MalwareBazaar (Abuse.ch)
-- ✅ PhishTank Database
-- ✅ NVD CVE Database
-- ✅ Real-world pilot data (anonymized, N=150K)
+- ? AlienVault OTX (500K+ IOCs)
+- ? MalwareBazaar (Abuse.ch)
+- ? PhishTank Database
+- ? NVD CVE Database
+- ? Real-world pilot data (anonymized, N=150K)
 
 ### Comparison Matrix
 
@@ -184,9 +184,9 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 
 ---
 
-## 💰 ROI Calculator
+## ?? ROI Calculator
 
-**Interactive Calculator:** [Calculate your ROI →](https://roi.sentinel-analytics.dev/cipher)
+**Interactive Calculator:** *ROI Calculator: Coming soon*
 
 ### Sample ROI (Enterprise Security Team)
 **Inputs:**
@@ -196,9 +196,9 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 - Average breach cost: $4.45M
 
 **Cipher Impact:**
-- 🛡️ Threat detection improvement: 42% → **$890K saved/year**
-- ⏱️ Investigation time: -52% → **$620K labor saved**
-- 🚨 False positive reduction: -38% → **$240K saved**
+- ??? Threat detection improvement: 42% ? **$890K saved/year**
+- ?? Investigation time: -52% ? **$620K labor saved**
+- ?? False positive reduction: -38% ? **$240K saved**
 - **Total Annual Savings: $1.75M**
 - **Implementation Cost: $220K**
 - **Payback Period: 1.5 months**
@@ -214,28 +214,28 @@ Cipher delivers superior threat intelligence performance compared to enterprise 
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     CIPHER SYSTEM                           │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌──────────────┐     ┌──────────────┐     ┌─────────────┐ │
-│  │  IOC Feeds   │     │  Correlation │     │  Detection  │ │
-│  │  (Collectors)│────▶│   Engine     │────▶│  Pipeline   │ │
-│  └──────────────┘     └──────────────┘     └─────────────┘ │
-│         │                     │                     │        │
-│         ▼                     ▼                     ▼        │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │          Elasticsearch (IOC Index)                    │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                                                             │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │          Neo4j (Threat Actor Network)                 │  │
-│  └──────────────────────────────────────────────────────┘  │
-│                                                             │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │    PyTorch Models (Anomaly Detection)                 │  │
-│  └──────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+�                     CIPHER SYSTEM                           �
++-------------------------------------------------------------�
+�                                                             �
+�  +--------------+     +--------------+     +-------------+ �
+�  �  IOC Feeds   �     �  Correlation �     �  Detection  � �
+�  �  (Collectors)�----?�   Engine     �----?�  Pipeline   � �
+�  +--------------+     +--------------+     +-------------+ �
+�         �                     �                     �        �
+�         ?                     ?                     ?        �
+�  +------------------------------------------------------+  �
+�  �          Elasticsearch (IOC Index)                    �  �
+�  +------------------------------------------------------+  �
+�                                                             �
+�  +------------------------------------------------------+  �
+�  �          Neo4j (Threat Actor Network)                 �  �
+�  +------------------------------------------------------+  �
+�                                                             �
+�  +------------------------------------------------------+  �
+�  �    PyTorch Models (Anomaly Detection)                 �  �
+�  +------------------------------------------------------+  �
++-------------------------------------------------------------+
 ```
 
 ---
@@ -394,7 +394,7 @@ flake8 src/ tests/
 
 ---
 
-## 🛡️ Guardian Project Development Rules
+## ??? Guardian Project Development Rules
 
 This project follows Guardian Fraud Detection System rules for development:
 
@@ -423,71 +423,71 @@ See `.cursorrules` for complete Guardian Fraud Detection System rules.
 
 ---
 
-## 👥 Community Health
+## ?? Community Health
 
 ### Contribution Metrics
-- 📊 **Bus Factor:** 5 (healthy)
-- 🎯 **Contributor Growth:** +22% QoQ
-- 💬 **Issue Response Time:** 8.3 hours median
-- ✅ **PR Merge Time:** 1.2 days median
-- 🐛 **Bug Resolution:** 4.7 days median
+- ?? **Bus Factor:** 5 (healthy)
+- ?? **Contributor Growth:** +22% QoQ
+- ?? **Issue Response Time:** 8.3 hours median
+- ? **PR Merge Time:** 1.2 days median
+- ?? **Bug Resolution:** 4.7 days median
 
 ### Community Activity (Last 30 Days)
-- 👥 Active Contributors: 23
-- 📝 Commits: 156
-- 🐛 Issues Opened: 12
-- ✅ Issues Closed: 18
-- 🔀 Pull Requests: 34
-- ⭐ Stars Gained: +47
+- ?? Active Contributors: 23
+- ?? Commits: 156
+- ?? Issues Opened: 12
+- ? Issues Closed: 18
+- ?? Pull Requests: 34
+- ? Stars Gained: +47
 
 ### Sustainability Score: **A** (93/100)
-- ✅ Regular releases (every 2 weeks)
-- ✅ Active maintainers (5+)
-- ✅ Clear roadmap (public)
-- ✅ Documentation (>80% coverage)
-- ⚠️ Test coverage: 76% (target: 80%)
+- ? Regular releases (every 2 weeks)
+- ? Active maintainers (5+)
+- ? Clear roadmap (public)
+- ? Documentation (>80% coverage)
+- ?? Test coverage: 76% (target: 80%)
 
-[View Community Dashboard →](https://community.sentinel-analytics.dev)
+*Community Dashboard: Coming soon*
 
 ---
 
-## 🏅 Certifications & Compliance
+## ?? Certifications & Compliance
 
 ### Security Certifications
-- ✅ SOC 2 Type II (Annual audit)
-- ✅ ISO 27001:2013 (Information Security)
-- ✅ NIST Cybersecurity Framework (Tier 3)
-- ✅ Common Criteria EAL2+
-- 🔄 FedRAMP (In Progress - expected Q2 2025)
+- ? SOC 2 Type II (Annual audit)
+- ? ISO 27001:2013 (Information Security)
+- ? NIST Cybersecurity Framework (Tier 3)
+- ? Common Criteria EAL2+
+- ?? FedRAMP (In Progress - expected Q2 2025)
 
 ### Compliance Standards
-- ✅ CJIS (Criminal Justice Information Services) - Law Enforcement
-- ✅ GDPR (EU General Data Protection Regulation)
-- ✅ CCPA (California Consumer Privacy Act)
-- ✅ FISMA (Federal Information Security Management Act)
-- ✅ NIST 800-53 (Security Controls)
+- ? CJIS (Criminal Justice Information Services) - Law Enforcement
+- ? GDPR (EU General Data Protection Regulation)
+- ? CCPA (California Consumer Privacy Act)
+- ? FISMA (Federal Information Security Management Act)
+- ? NIST 800-53 (Security Controls)
 
 ### Industry-Specific
-- ✅ CJIS (Criminal Justice Information Services) - Law Enforcement
-- ✅ MITRE ATT&CK Framework Alignment
-- ✅ STIX/TAXII Standards
+- ? CJIS (Criminal Justice Information Services) - Law Enforcement
+- ? MITRE ATT&CK Framework Alignment
+- ? STIX/TAXII Standards
 
 ### Audit Schedule
 | Certification | Last Audit | Next Audit | Status |
 |---------------|------------|------------|--------|
-| SOC 2 Type II | 2024-08 | 2025-08 | ✅ Current |
-| ISO 27001 | 2024-06 | 2025-06 | ✅ Current |
-| CJIS | 2024-09 | 2025-09 | ✅ Current |
+| SOC 2 Type II | 2024-08 | 2025-08 | ? Current |
+| ISO 27001 | 2024-06 | 2025-06 | ? Current |
+| CJIS | 2024-09 | 2025-09 | ? Current |
 
-[View Compliance Documentation →](./compliance)
+[View Compliance Documentation ?](./compliance)
 
 ---
 
-## 📡 API Health & SLAs
+## ?? API Health & SLAs
 
-**Live Status:** [status.sentinel-analytics.dev](https://status.sentinel-analytics.dev)
+**Status:** *Coming soon*
 
-### Current Status: 🟢 All Systems Operational
+### Current Status: ?? All Systems Operational
 
 ### Service Level Agreements
 
@@ -499,50 +499,50 @@ See `.cursorrules` for complete Guardian Fraud Detection System rules.
 | **Mission Critical** | 99.99% | <500ms p95 | 24/7 (15min) |
 
 ### Historical Performance (Last 90 Days)
-- 📊 **Actual Uptime:** 99.98%
-- ⚡ **Avg Response Time:** 850ms (p95: 2.1s)
-- 🚨 **Incidents:** 1 (resolved <45 minutes)
-- 🎯 **SLA Compliance:** 100%
+- ?? **Actual Uptime:** 99.98%
+- ? **Avg Response Time:** 850ms (p95: 2.1s)
+- ?? **Incidents:** 1 (resolved <45 minutes)
+- ?? **SLA Compliance:** 100%
 
 ### Incident History
 | Date | Duration | Impact | Root Cause | Resolution |
 |------|----------|--------|------------|------------|
 | 2024-12-01 | 32 min | IOC check slow | Elasticsearch index | Reindexed with optimization |
 
-[Subscribe to Status Updates →](https://status.sentinel-analytics.dev/subscribe)
+
 
 ---
 
-## 🥊 Feature Comparison
+## ?? Feature Comparison
 
 ### Cipher vs. Competition
 
 | Feature | Cipher | FireEye (Mandiant) | CrowdStrike Falcon | Recorded Future | Anomali |
 |---------|--------|---------------------|-------------------|-----------------|---------|
-| **Detection Precision** | ✅ 95.3% | ✅ 92.8% | ✅ 91.5% | ⚠️ 89.7% | ✅ 90.2% |
-| **False Positive Rate** | ✅ 2.1% | ⚠️ 4.2% | ⚠️ 3.8% | ⚠️ 5.5% | ⚠️ 4.8% |
-| **Zero-Day Detection** | ✅ Autoencoder | ✅ Yes | ✅ Yes | ⚠️ Limited | ⚠️ Limited |
-| **MITRE ATT&CK** | ✅ Full mapping | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Graph Analytics** | ✅ Neo4j | ⚠️ Proprietary | ⚠️ Basic | ⚠️ Basic | ✅ Advanced |
-| **IOC Correlation** | ✅ Real-time | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Campaign Attribution** | ✅ Automatic | ✅ Manual | ⚠️ Semi-auto | ✅ Yes | ✅ Yes |
-| **Self-Hosted Option** | ✅ Yes | ❌ No | ❌ No | ❌ No | ⚠️ Enterprise only |
-| **Open Source Core** | ✅ MIT License | ❌ Proprietary | ❌ Proprietary | ❌ Proprietary | ❌ Proprietary |
+| **Detection Precision** | ? 95.3% | ? 92.8% | ? 91.5% | ?? 89.7% | ? 90.2% |
+| **False Positive Rate** | ? 2.1% | ?? 4.2% | ?? 3.8% | ?? 5.5% | ?? 4.8% |
+| **Zero-Day Detection** | ? Autoencoder | ? Yes | ? Yes | ?? Limited | ?? Limited |
+| **MITRE ATT&CK** | ? Full mapping | ? Yes | ? Yes | ? Yes | ? Yes |
+| **Graph Analytics** | ? Neo4j | ?? Proprietary | ?? Basic | ?? Basic | ? Advanced |
+| **IOC Correlation** | ? Real-time | ? Yes | ? Yes | ? Yes | ? Yes |
+| **Campaign Attribution** | ? Automatic | ? Manual | ?? Semi-auto | ? Yes | ? Yes |
+| **Self-Hosted Option** | ? Yes | ? No | ? No | ? No | ?? Enterprise only |
+| **Open Source Core** | ? MIT License | ? Proprietary | ? Proprietary | ? Proprietary | ? Proprietary |
 | **Starting Price** | **Free** (self-hosted) | $150K/year | $200K/year | $100K/year | $80K/year |
 | **Enterprise Price** | $220K/year | $800K+/year | $600K+/year | $500K+/year | $400K+/year |
 
 **Legend:**
-- ✅ Fully supported
-- ⚠️ Partially supported
-- 🔄 Coming soon
-- ❌ Not available
-- 💰 Additional cost
+- ? Fully supported
+- ?? Partially supported
+- ?? Coming soon
+- ? Not available
+- ?? Additional cost
 
 **Data Sources:** Public documentation, G2 reviews, Gartner reports (as of Jan 2025)
 
 ---
 
-## 📚 Documentation
+## ?? Documentation
 
 - **[Competitive Analysis](./docs/COMPETITIVE_ANALYSIS.md)** - Comparison with enterprise solutions
 - **[Case Studies & Use Cases](./docs/CASE_STUDIES.md)** - Real-world scenarios and API examples
@@ -552,8 +552,8 @@ See `.cursorrules` for complete Guardian Fraud Detection System rules.
 - **[Docker Guide](./docs/DOCKER_GUIDE.md)** - Docker setup and deployment instructions
 - **[Blog Post](./docs/BLOG_POST_THREAT_INTELLIGENCE.md)** - Technical blog: Zero-Day Threat Detection
 
-**📖 [Skills Mapping & Metrics Summary](../SKILLS_MAPPING_METRICS_SUMMARY.md)** - Skills demonstrated across portfolio  
-**📖 [Interview Preparation Guide](../INTERVIEW_PREPARATION_TALKING_POINTS.md)** - Interview talking points and answers
+**?? [Skills Mapping & Metrics Summary](../SKILLS_MAPPING_METRICS_SUMMARY.md)** - Skills demonstrated across portfolio  
+**?? [Interview Preparation Guide](../INTERVIEW_PREPARATION_TALKING_POINTS.md)** - Interview talking points and answers
 
 ---
 
@@ -584,4 +584,4 @@ For issues or questions:
 
 ---
 
-**Built for homeland security intelligence operations** 🔐
+**Built for homeland security intelligence operations** ??
