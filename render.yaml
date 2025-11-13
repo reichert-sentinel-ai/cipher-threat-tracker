@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cipher-threat-api
+    env: docker
+    plan: free
+    autoDeploy: false
+    dockerfilePath: Artifacts/Dockerfile
+    dockerContext: Artifacts
+    healthCheckPath: /health
+    numInstances: 1
+    envVars:
+      - key: PORT
+        value: "8000"
