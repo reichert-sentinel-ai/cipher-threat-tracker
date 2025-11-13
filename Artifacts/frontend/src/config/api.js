@@ -1,11 +1,7 @@
 // API configuration - uses VITE_API_BASE_URL from environment variables
 // In production, this should be set to: https://cipher-threat-api.onrender.com/api
-const envApiUrl = import.meta.env.VITE_API_BASE_URL;
-export const API_BASE_URL = envApiUrl?.replace(/\/+$/, '') || 'http://localhost:8000/api';
-
-// Debug: log the API URL (works in both dev and production)
-console.log('[API Config] VITE_API_BASE_URL env var:', envApiUrl || '(not set)');
-console.log('[API Config] Using API_BASE_URL:', API_BASE_URL);
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL?.replace(/\/+$/, '') || 'http://localhost:8000/api';
 
 export const apiPath = (path) => {
   const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
