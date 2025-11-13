@@ -5,7 +5,12 @@ export const API_BASE_URL =
 
 export const apiPath = (path) => {
   const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
-  return `${API_BASE_URL}/${normalizedPath}`;
+  const fullUrl = `${API_BASE_URL}/${normalizedPath}`;
+  // Debug log to verify API URL is correct (remove in production)
+  if (import.meta.env.DEV || import.meta.env.VITE_API_BASE_URL) {
+    console.log(`[apiPath] Building URL for "${path}": ${fullUrl}`);
+  }
+  return fullUrl;
 };
 
 
