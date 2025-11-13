@@ -4,11 +4,23 @@ import ThreatTimeline from './components/ThreatTimeline.jsx';
 import IOCSearch from './components/IOCSearch.jsx';
 import MitreAttackMap from './components/MitreAttackMap.jsx';
 import IRPlaybookGenerator from './components/IRPlaybookGenerator.jsx';
+import { API_BASE_URL } from './config/api.js';
 
 function App() {
+  // Debug: Show API URL being used
+  const envApiUrl = import.meta.env.VITE_API_BASE_URL;
+  console.log('[API Config] VITE_API_BASE_URL env var:', envApiUrl || '(not set)');
+  console.log('[API Config] Using API_BASE_URL:', API_BASE_URL);
+
   return (
     <Router>
       <div className="min-h-screen bg-gray-50 dark:bg-[#0f0f0f] transition-colors">
+        {/* Debug banner - remove after confirming env var works */}
+        {import.meta.env.PROD && (
+          <div className="bg-yellow-100 dark:bg-yellow-900 border-b border-yellow-300 dark:border-yellow-700 px-4 py-2 text-xs">
+            <strong>API URL:</strong> {API_BASE_URL} | <strong>Env Var:</strong> {envApiUrl || '(NOT SET - using localhost fallback)'}
+          </div>
+        )}
         <nav className="bg-white dark:bg-[#1a1a1a] shadow-sm border-b border-gray-200 dark:border-[#2a2a2a]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
