@@ -47,7 +47,16 @@ htmlcov/
 # Data
 data/
 *.csv
-*.json
+# Ignore specific JSON files but NOT frontend package files
+# Don't use blanket *.json - be specific
+data/**/*.json
+*.test.json
+*.spec.json
+# Explicitly allow frontend package files
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/tsconfig.json
+!frontend/tsconfig.*.json
 *.parquet
 
 # Logs

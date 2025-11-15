@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { apiPath } from '../config/api.js';
 import {
   ScatterChart, Scatter, LineChart, Line, BarChart, Bar,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
@@ -68,7 +69,7 @@ export default function ThreatTimeline() {
         ...(eventTypeFilter !== 'all' && { event_type: eventTypeFilter })
       };
 
-      const response = await axios.get('http://localhost:8000/api/threat-timeline/events', { params });
+      const response = await axios.get(apiPath('threat-timeline/events'), { params });
       if (response.data && response.data.events) {
         setTimelineData(response.data);
       } else {
@@ -93,7 +94,7 @@ export default function ThreatTimeline() {
 
   const fetchAttackChain = async (campaignId) => {
     try {
-      const response = await axios.get(`http://localhost:8000/api/threat-timeline/attack-chain/${campaignId}`);
+      const response = await axios.get(apiPath(`threat-timeline/attack-chain/${campaignId}`));
       setAttackChain(response.data);
     } catch (error) {
       console.error('Error fetching attack chain:', error);
@@ -102,7 +103,7 @@ export default function ThreatTimeline() {
 
   const viewEventDetails = async (eventId) => {
     try {
-      const response = await axios.get(`http://localhost:8000/api/threat-timeline/event-details/${eventId}`);
+      const response = await axios.get(apiPath(`threat-timeline/event-details/${eventId}`));
       setSelectedEvent(response.data);
     } catch (error) {
       console.error('Error fetching event details:', error);

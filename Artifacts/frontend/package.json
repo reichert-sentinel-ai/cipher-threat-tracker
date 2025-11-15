@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "echo 'Building with VITE_API_BASE_URL='$VITE_API_BASE_URL && vite build",
+    "build": "echo '=== BUILD START ===' && echo 'VITE_API_BASE_URL='$VITE_API_BASE_URL && echo 'NODE_ENV='$NODE_ENV && vite build && echo '=== BUILD COMPLETE ==='",
     "preview": "vite preview"
   },
   "dependencies": {

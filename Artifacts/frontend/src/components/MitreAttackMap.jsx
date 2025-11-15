@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
+import { apiPath } from '../config/api.js';
 import {
   BarChart, Bar, PieChart, Pie, Cell, RadarChart, Radar,
   PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis,
@@ -49,8 +50,8 @@ export default function MitreAttackMap() {
     setLoading(true);
     try {
       const [matrixRes, gapRes] = await Promise.all([
-        axios.get('http://localhost:8000/api/mitre/coverage-matrix'),
-        axios.get('http://localhost:8000/api/mitre/gap-analysis')
+        axios.get(apiPath('mitre/coverage-matrix')),
+        axios.get(apiPath('mitre/gap-analysis'))
       ]);
       
       setMatrix(matrixRes.data);
@@ -68,7 +69,7 @@ export default function MitreAttackMap() {
 
   const fetchThreatActorTTPs = async (actor) => {
     try {
-      const response = await axios.get(`http://localhost:8000/api/mitre/threat-actor-ttps/${actor}`);
+      const response = await axios.get(apiPath(`mitre/threat-actor-ttps/${actor}`));
       setActorTTPs(response.data);
     } catch (error) {
       console.error('Error fetching threat actor TTPs:', error);
@@ -77,7 +78,7 @@ export default function MitreAttackMap() {
 
   const viewTechniqueDetails = async (techniqueId) => {
     try {
-      const response = await axios.get(`http://localhost:8000/api/mitre/technique-details/${techniqueId}`);
+      const response = await axios.get(apiPath(`mitre/technique-details/${techniqueId}`));
       setSelectedTechnique(response.data);
     } catch (error) {
       console.error('Error fetching technique details:', error);

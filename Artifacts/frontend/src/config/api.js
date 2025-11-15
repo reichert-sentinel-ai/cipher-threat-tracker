@@ -1,12 +1,16 @@
 // API configuration - uses VITE_API_BASE_URL from environment variables
 // In production, this should be set to: https://cipher-threat-api.onrender.com/api
 // Vite will replace import.meta.env.VITE_API_BASE_URL at build time
+// IMPORTANT: This must be set in Vercel environment variables before building
+
+// Direct access to env var - Vite replaces this at build time
 const envApiUrl = import.meta.env.VITE_API_BASE_URL;
 const defaultUrl = 'http://localhost:8000/api';
 
 // Use direct string replacement - Vite can statically analyze this
 // Remove trailing slashes and ensure clean URL
-export const API_BASE_URL = envApiUrl 
+// The env var value is baked into the bundle at build time, changing the hash
+export const API_BASE_URL = (envApiUrl && String(envApiUrl).trim() !== '')
   ? String(envApiUrl).trim().replace(/\/+$/, '') 
   : defaultUrl;
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { apiPath } from '../config/api.js';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Badge } from './ui/badge';
@@ -47,7 +48,7 @@ export default function IRPlaybookGenerator() {
 
   const fetchTemplates = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/ir-playbooks/templates');
+      const response = await axios.get(apiPath('ir-playbooks/templates'));
       setTemplates(response.data);
     } catch (error) {
       console.error('Error fetching templates:', error);
@@ -58,7 +59,7 @@ export default function IRPlaybookGenerator() {
     setLoading(true);
     try {
       const [playbookRes, metricsRes] = await Promise.all([
-        axios.get('http://localhost:8000/api/ir-playbooks/generate', {
+        axios.get(apiPath('ir-playbooks/generate'), {
           params: {
             incident_type: selectedIncidentType,
             severity: selectedSeverity,
@@ -66,7 +67,7 @@ export default function IRPlaybookGenerator() {
             automation_level: automationLevel
           }
         }),
-        axios.get(`http://localhost:8000/api/ir-playbooks/metrics/${selectedIncidentType}`)
+        axios.get(apiPath(`ir-playbooks/metrics/${selectedIncidentType}`))
       ]);
       
       setPlaybook(playbookRes.data);

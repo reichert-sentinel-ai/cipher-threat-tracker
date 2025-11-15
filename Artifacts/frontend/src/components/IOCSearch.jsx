@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { apiPath } from '../config/api.js';
 import {
   BarChart, Bar, PieChart, Pie, Cell, RadarChart, Radar,
   PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis,
@@ -68,7 +69,7 @@ export default function IOCSearch() {
 
   const fetchFeeds = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/ioc/feeds');
+      const response = await axios.get(apiPath('ioc/feeds'));
       setFeeds(response.data);
     } catch (error) {
       console.error('Error fetching feeds:', error);
@@ -89,7 +90,7 @@ export default function IOCSearch() {
         ...(threatLevelFilter !== 'all' && { threat_level: threatLevelFilter })
       };
 
-      const response = await axios.get('http://localhost:8000/api/ioc/search', { params });
+      const response = await axios.get(apiPath('ioc/search'), { params });
       setSearchResults(response.data);
     } catch (error) {
       console.error('Error searching IOCs:', error);
@@ -114,8 +115,8 @@ export default function IOCSearch() {
     setLoading(true);
     try {
       const [enrichRes, correlateRes] = await Promise.all([
-        axios.get(`http://localhost:8000/api/ioc/enrich/${encodeURIComponent(iocValue)}`),
-        axios.get(`http://localhost:8000/api/ioc/correlate/${encodeURIComponent(iocValue)}`)
+        axios.get(apiPath(`ioc/enrich/${encodeURIComponent(iocValue)}`)),
+        axios.get(apiPath(`ioc/correlate/${encodeURIComponent(iocValue)}`))
       ]);
       
       setEnrichmentData(enrichRes.data);
@@ -134,7 +135,7 @@ export default function IOCSearch() {
     setLoading(true);
     try {
       const iocList = bulkIOCs.split('\n').filter(line => line.trim());
-      const response = await axios.post('http://localhost:8000/api/ioc/bulk-check', iocList);
+      const response = await axios.post(apiPath('ioc/bulk-check'), iocList);
       setBulkResults(response.data);
     } catch (error) {
       console.error('Error bulk checking IOCs:', error);
