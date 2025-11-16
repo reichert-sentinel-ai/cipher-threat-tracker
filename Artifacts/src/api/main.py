@@ -26,10 +26,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://cipher-threat-tracker.vercel.app",
-        "https://cipher-threat-tracker-*.vercel.app",  # Preview deployments
         "http://localhost:5173",  # Local frontend dev server
-        "*"  # Allow all for now - restrict in production if needed
     ],
+    allow_origin_regex=r"https://cipher-threat-tracker-.*\.vercel\.app",  # Preview deployments
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
